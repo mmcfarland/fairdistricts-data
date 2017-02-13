@@ -13,3 +13,5 @@ docker-compose run data
 ```
 
 Processed geoJSON files will be in the `dist/` directory.
+
+[![Build Status](https://travis-ci.org/mmcfarland/fairdistricts-data.svg?branch=master)](https://travis-ci.org/mmcfarland/fairdistricts-data)
