@@ -1,0 +1,10 @@
+version: '2'
+services:
+  data:
+    image: district-geom
+    build:
+      context: ./src/data-processing
+      dockerfile: Dockerfile
+    volumes:
+      - ./src/data-processing:/usr/src
+      - ./dist:/usr/dist

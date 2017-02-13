@@ -1,0 +1,2 @@
+shapely==1.6b2
+requests==2.13.0
